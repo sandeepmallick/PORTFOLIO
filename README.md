@@ -2,7 +2,7 @@
 
 Overview
 
-A modern and responsive portfolio website showcasing my skills in data analytics and web development. Built with HTML and CSS, it highlights my expertise and projects in a visually appealing way. It serves as a digital resume, providing an interactive way to explore my work and professional background.
+A modern and RED theme based responsive portfolio website showcasing my skills. Built with HTML and CSS, it highlights my expertise and projects in a visually appealing way. It serves as a digital resume, providing an interactive way to explore my work and professional background.
 
 Features
 
