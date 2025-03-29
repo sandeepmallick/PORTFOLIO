@@ -21,19 +21,10 @@ About Section: A detailed introduction about my expertise in Python, SQL, Power 
 HTML: Structuring the content of the portfolio.
 CSS: Styling the website with modern UI elements and animations.
 
-#Installation & Usage
-
-Clone this repository:
-git clone https://sandeepmallick.github.io/PORTFOLIO/
-
-Navigate to the project folder:
-cd portfolio
-
-Open the index.html file in your browser to view the website.
-
-#Live Demo
+# Live Demo
 You can check out the live version of the website here: https://sandeepmallick.netlify.app/
 
+git clone https://sandeepmallick.github.io/PORTFOLIO/
 
 
 # Made by 
