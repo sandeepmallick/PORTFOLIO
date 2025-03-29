@@ -24,7 +24,7 @@ CSS: Styling the website with modern UI elements and animations.
 #Installation & Usage
 
 Clone this repository:
-git clone https://github.com/yourusername/portfolio.git
+git clone https://sandeepmallick.github.io/PORTFOLIO/
 
 Navigate to the project folder:
 cd portfolio
@@ -32,7 +32,7 @@ cd portfolio
 Open the index.html file in your browser to view the website.
 
 #Live Demo
-You can check out the live version of the website here: 
+You can check out the live version of the website here: https://sandeepmallick.netlify.app/
 
 
 
