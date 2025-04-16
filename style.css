@@ -240,10 +240,10 @@ span{
 
 @keyframes words{
     0%, 50%{
-        content: "Junior Data Analyst";
+        content: "𝑱𝒖𝒏𝒊𝒐𝒓 𝑫𝒂𝒕𝒂 𝑨𝒏𝒂𝒍𝒚𝒔𝒕";
     }
     50%, 100%{
-        content: "Web Developer";
+        content: "𝑾𝒆𝒃 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓";
     }
 }
 @media (max-width: 1000px){
@@ -309,4 +309,91 @@ span{
       transform: rotateX(360deg) rotateY(360deg);
     }
   }
-  
+/* Pyramid animation */
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .pyramid-loader {
+    position: relative;
+    display: run-in;
+    width: 160px;
+    height: 10px;
+    transform-style: preserve-3d;
+    transform: scale(0.5) rotateX(-20deg); /* scale down to 50% */
+    transform: rotateX(-20deg);
+    transform-origin: top;
+    vertical-align: middle;
+    margin-left: 10px;
+
+  }
+
+  .wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: spin 1.9s linear infinite;
+  }
+
+  @keyframes spin {
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+
+  .pyramid-loader .wrapper .side {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform-origin: center top;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+
+  /* Colored pyramid sides with conic gradients */
+  .pyramid-loader .wrapper .side1 {
+    transform: rotateZ(-30deg) rotateY(90deg);
+    background: conic-gradient(#2BDEAC, #ff000093, #D8CCE6, #852525);
+  }
+
+  .pyramid-loader .wrapper .side2 {
+    transform: rotateZ(30deg) rotateY(90deg);
+    background: conic-gradient(#0fd84fc3, #D8CCE6, #ff0000a2, #2BDEAC);
+  }
+
+  .pyramid-loader .wrapper .side3 {
+    transform: rotateX(30deg);
+    background: conic-gradient(#2F2585, #D8CCE6, #28fdf24d, #2BDEAC);
+  }
+
+  .pyramid-loader .wrapper .side4 {
+    transform: rotateX(-30deg);
+    background: conic-gradient(#2BDEAC, #F028FD, #D8CCE6, #2F2585);
+  }
+
+  .pyramid-loader .wrapper .shadow {
+    width: 60px;
+    height: 60px;
+    background: #d55a5a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotateX(90deg) translateZ(-40px);
+    filter: blur(12px);
+    opacity: 0.6;
+  }
