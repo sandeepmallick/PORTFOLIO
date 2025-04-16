@@ -192,7 +192,7 @@ span{
     color: #ff0000;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #ff0000;
+    border: 2px solid #ffe100ab;
     transition: 0.3s ease;
     cursor: pointer;
 }
@@ -289,8 +289,8 @@ span{
     height: 100%;
     background: #ff0000;
     background: transparent;
-    border: 1px solid #fff700;
-    box-shadow: 0 0 4px #00f2ff;
+    border: 1px solid #ff0000;
+    box-shadow: 0 0 4px #0044ff;
     opacity: 0.8;
   }
   
