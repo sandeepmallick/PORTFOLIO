@@ -279,7 +279,7 @@ span{
     margin-left: 8px;
     position: relative;
     transform-style: preserve-3d;
-    animation: spinner 2s linear infinite;
+    animation: spinner 1.8s linear infinite;
     vertical-align: middle;
   }
   
