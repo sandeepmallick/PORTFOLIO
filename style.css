@@ -271,4 +271,42 @@ span{
         margin-top: 4rem;
     }
 }
-
+/*Spinner cube the button  */
+.spinner-btn {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: spinner 2s linear infinite;
+    vertical-align: middle;
+  }
+  
+  .spinner-btn div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ff0000;
+    background: transparent;
+    border: 1px solid #00f2ff;
+    box-shadow: 0 0 4px #00f2ff;
+    opacity: 0.8;
+  }
+  
+  .spinner-btn div:nth-child(1) { transform: rotateY(0deg) translateZ(8px); }
+  .spinner-btn div:nth-child(2) { transform: rotateY(90deg) translateZ(8px); }
+  .spinner-btn div:nth-child(3) { transform: rotateY(180deg) translateZ(8px); }
+  .spinner-btn div:nth-child(4) { transform: rotateY(-90deg) translateZ(8px); }
+  .spinner-btn div:nth-child(5) { transform: rotateX(90deg) translateZ(8px); }
+  .spinner-btn div:nth-child(6) { transform: rotateX(-90deg) translateZ(8px); }
+  
+  @keyframes spinner {
+    0% {
+      transform: rotateX(16deg) rotateY(1deg);
+    }
+    100% {
+      transform: rotateX(360deg) rotateY(360deg);
+    }
+  }
+  
