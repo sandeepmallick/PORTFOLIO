@@ -22,7 +22,7 @@ HTML: Structuring the content of the portfolio.
 CSS: Styling the website with modern UI elements and animations.
 
 # Live Demo
-You can check out the live version of the website here: https://sandeepmallick.netlify.app/
+You can check out the live version of the website here: https://sandeepmallick.github.io/Cosmos/
 
 git clone https://sandeepmallick.github.io/PORTFOLIO/
 
